@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Manrope", sans-serif;
+  background-color: black;
 }
 
 #header {
@@ -11,29 +12,28 @@ body {
 }
 
 #header .header-left {
-  padding: 10px 0px 0px 10px;
+  padding: 0px 0px 0px 10px;
+  display: inline;
+}
+
+#header .header-left .navigation-brand .brand-logo {
+  width: auto;
+  height: 50px;
 }
 
 #header .header-right {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  box-sizing: border-box;
+  display: inline;
+  float: right;
+  padding-top: 13px;
 }
 
 #header .header-right a {
-  padding: 0px 30px 0px 30px;
-  font-size: 20px;
+  padding: 00px 70px 0px 30px;
+  font-size: 15px;
   font-weight: 700;
+  color: #c3c3c3;
 }
 
-.header-right a:hover {
+#header .header-right a:hover {
   color: #ffc300;
 }
-
-/* .navigation-menu a {
-  padding: 0px 30px 0px 30px;
-  color: #c3c3c3;
-  font-size: 20px;
-  font-weight: 700;
-} */
